@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <hader>
     <h1>AI Persian Poem Generator</h1>
     </hader>
     <main>
         <form>
-            <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off">
-            <input type="submit">
+            <input type="text" class="instructions" placeholder="Enter the topic of the poem" autofocus required autocomplete="off">
+            <input type="submit" class="submit-button">
         </form>
-        <div>
+        <div class="poem">
          La tombe dit à la rose
         <br />
         Des pleurs dont l'aube t'arrose
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         This AI project was coded by <a href="https://github.com/Nourioo?tab=repositories" target="_blank"> Zahra Nouri</a> 
         and is <a href="#"> open-sourced on Github </a> and is hosted on <a href="#">Netlify</a>
     </footer>
